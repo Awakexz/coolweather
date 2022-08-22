@@ -83,7 +83,6 @@ public class ChooseAreaFragment extends Fragment {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Log.d("sss", getActivity().toString());
                 if(currentLevel == LEVEL_PROVINCE){
                     selectedProvince = provinceList.get(i);
                     queryCities();
@@ -101,7 +100,6 @@ public class ChooseAreaFragment extends Fragment {
                         WeatherActivity activity = (WeatherActivity) getActivity();
                         activity.drawerLayout.closeDrawers();
                         activity.swipeRefresh.setRefreshing(true);
-                        activity.mWeatherId = weatherId;
                         activity.requestWeather(weatherId);
                    }
                 }

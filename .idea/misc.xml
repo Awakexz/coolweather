@@ -4,7 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
-        <entry key="app/src/main/res/layout/activity_weather.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_weather.xml" value="0.37155963302752293" />
+        <entry key="app/src/main/res/layout/aqi.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/layout/choose_area.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/forecast.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/layout/forecast_item.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/layout/now.xml" value="0.16286727456940223" />
+        <entry key="app/src/main/res/layout/suggestion.xml" value="0.3359375" />
+        <entry key="app/src/main/res/layout/title.xml" value="0.16286727456940223" />
       </map>
     </option>
   </component>
@@ -52,5 +59,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="SuppressABINotification">
+    <option name="modulesWithSuppressedNotConfigured">
+      <set>
+        <option value="coolweather.app" />
+      </set>
+    </option>
   </component>
 </project>
